@@ -3,6 +3,7 @@ import tkinter
 import tkinter.font
 from tkinter import messagebox
 import requests
+
 global target, result, k_e_flag, k_e_radio, e_k_radio
 
 datas = {
@@ -13,13 +14,12 @@ datas = {
 
 header = {
     'X-Naver-Client-Id' : '-----------------------',
-    'X-Naver-Client-Secret' : '------------'
+    'X-Naver-Client-Secret' : '-------------'
 }
 url = 'https://openapi.naver.com/v1/language/translate'
 
 # datas 값 설정
 def set_datas(flag, word):
-    global datas
     if flag:
         datas['source'] = 'en'
         datas['target'] = 'ko'
@@ -46,7 +46,6 @@ def cvt_func():
     if result.get() == '' or target.get() == '':
         messagebox.showinfo("오류","빈 칸이 있으면 안되요.")
         return
-    global k_e_flag
     if k_e_flag.get():
         e_k_radio.deselect()
         k_e_radio.select()
@@ -56,7 +55,7 @@ def cvt_func():
     temp_result = result.get()
     result.delete(0,len(result.get()))
     target.delete(0,len(target.get()))
-    set_datas(k_e_flag,temp_result)
+    set_datas(k_e_flag.get(),temp_result)
     response=requests.post(url = url, headers=header, data=datas).json()
     result.insert(0,response['message']['result']['translatedText'])
     target.insert(0,temp_result)
