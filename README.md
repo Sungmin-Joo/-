@@ -25,17 +25,18 @@ target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최�
  ```python
 header = {
     'X-Naver-Client-Id' : 'ENTER YOUR ID',
-    'X-Naver-Client-Secret' : 'ENTER YOUT SECRET'
+    'X-Naver-Client-Secret' : 'ENTER YOUR SECRET'
 }
 ```
 
 ## 개발 환경 설정
 
- ### Python 설치하기  
- Python 설치는 공식 [홈페이지](https://www.python.org/) 참고 
+ ### Python 설치  
+ #### Python 설치는 공식 [홈페이지](https://www.python.org/) 에서 설치할 수 있다.
   
- ### PAPAGO api clinet ID 와 Scret을 취득  
- [네이버 개발자 센터]( https://developers.naver.com/)에서 취득
+ ### PAPAGO api clinet ID 발급
+ #### [네이버 개발자 센터]( https://developers.naver.com/)에서 발급받을 수 있다.  
+ #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고
  
 
 
