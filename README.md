@@ -4,11 +4,10 @@
 
 파이썬과 파파고 apen api를 활용하여 프로젝트를 진행하였다.  
 target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최대한 많이 구현 해 보았다.  
+   
+![main](https://user-images.githubusercontent.com/46941349/63306968-a6bc2600-c327-11e9-9ac6-53d421543861.png)  
   # 
-  #   
-![main](https://user-images.githubusercontent.com/46941349/63306968-a6bc2600-c327-11e9-9ac6-53d421543861.png)
-  #
-  # 
+   
 ## 개발 환경
 
 * Python:  
@@ -21,8 +20,8 @@ target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최�
   - tkinter(Python)  
   - NAVER PAPAGO open api
   
-  
-    
+  #  
+     
 ## 사용 예제
 
  자신이 발급받은 api를 코드의 'X-Naver-Client-Id' 와 'X-Naver-Client-Secret'에 기입한다.  
@@ -32,7 +31,7 @@ header = {
     'X-Naver-Client-Secret' : 'ENTER YOUR SECRET'
 }
 ```
-
+#  
   
 ## 개발 환경 설정
 
@@ -44,7 +43,7 @@ header = {
      #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고
  
 
-  
+  #  
 
 ## 정보
 
