@@ -6,8 +6,8 @@
 target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최대한 많이 구현 해 보았다.  
    
 ![main](https://user-images.githubusercontent.com/46941349/63306968-a6bc2600-c327-11e9-9ac6-53d421543861.png)  
-  # 
-   
+
+
 ## 개발 환경
 
 * Python:  
@@ -19,9 +19,8 @@ target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최�
 * Used Modules:  
   - tkinter(Python)  
   - NAVER PAPAGO open api
-  
-  #  
-     
+
+
 ## 사용 예제
 
  자신이 발급받은 api를 코드의 'X-Naver-Client-Id' 와 'X-Naver-Client-Secret'에 기입한다.  
@@ -30,9 +29,9 @@ header = {
     'X-Naver-Client-Id' : 'ENTER YOUR ID',
     'X-Naver-Client-Secret' : 'ENTER YOUR SECRET'
 }
-```
-#  
-  
+```  
+
+
 ## 개발 환경 설정
 
  * ### Python 설치  
@@ -40,10 +39,9 @@ header = {
   
  * ### PAPAGO api client ID 발급
      #### [네이버 개발자 센터]( https://developers.naver.com/)에서 발급받을 수 있다.  
-     #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고
- 
+     #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고  
 
-  #  
+
 
 ## 정보
 
