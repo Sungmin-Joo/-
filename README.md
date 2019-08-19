@@ -32,11 +32,11 @@ header = {
 ## 개발 환경 설정
 
  * ### Python 설치  
- #### Python 설치는 공식 [홈페이지](https://www.python.org/) 에서 설치할 수 있다.
+ - #### Python 설치는 공식 [홈페이지](https://www.python.org/) 에서 설치할 수 있다.
   
  * ### PAPAGO api clinet ID 발급
- #### [네이버 개발자 센터]( https://developers.naver.com/)에서 발급받을 수 있다.  
- #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고
+ - #### [네이버 개발자 센터]( https://developers.naver.com/)에서 발급받을 수 있다.  
+ - #### 자세한 방법은 [NAVER open api guide](https://github.com/naver/naver-openapi-guide/tree/master/ko/papago-apis)를 참고
  
 
 
