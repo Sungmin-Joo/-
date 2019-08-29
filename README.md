@@ -2,7 +2,7 @@
 > 파파고 오픈 api를 활용한 나만의 파파고 만들기
 
 
-파이썬과 파파고 apen api를 활용하여 프로젝트를 진행하였다.  
+파이썬과 파파고 pen api를 활용하여 프로젝트를 진행하였다.  
 target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최대한 많이 구현 해 보았다.  
    
 ![main](https://user-images.githubusercontent.com/46941349/63306968-a6bc2600-c327-11e9-9ac6-53d421543861.png)  
