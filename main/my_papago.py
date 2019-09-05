@@ -1,3 +1,5 @@
+#----------- 나만의 파파고 만들기 프로젝트 ---------
+#설명 : https://github.com/Sungmin-Joo/My-own-papago
 # -*- coding: utf-8 -*-
 import tkinter
 import tkinter.font
