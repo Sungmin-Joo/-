@@ -43,9 +43,12 @@ header = {
 
 
 
-## 정보
-
- 주성민(Joo Sung Min) – big-joo_dev@naver.com  
+ ## Info
+ Name      : 주성민(Joo Sung Min)  
+ E-mail    : big-joo_dev@naver.com  
+ Phone     : 010-2770-4367
+ Univesity : Korea Polytechnic University  
+  
  버그가 있다면 제보를 부탁 드립니다.  
    
   MIT License 라이센스를 준수하며 ``LICENSE``에서 자세한 정보를 확인할 수 있습니다.
