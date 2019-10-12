@@ -6,7 +6,6 @@ import tkinter.font
 from tkinter import messagebox
 import requests
 
-global target, result, k_e_flag, k_e_radio, e_k_radio
 
 datas = {
     "source" : "ko",
@@ -15,8 +14,8 @@ datas = {
 }
 
 header = {
-    'X-Naver-Client-Id' : '-----------------------',
-    'X-Naver-Client-Secret' : '-------------'
+    'X-Naver-Client-Id' : '################',
+    'X-Naver-Client-Secret' : '###########'
 }
 url = 'https://openapi.naver.com/v1/language/translate'
 
@@ -64,7 +63,7 @@ def cvt_func():
 
 
 if __name__ == '__main__':
-    global target, result, k_e_flag
+    global target, result, k_e_flag, k_e_radio, e_k_radio
 
     window=tkinter.Tk()
     window.title("Sungmin_Joo_with_PAPAGO")
@@ -115,7 +114,6 @@ if __name__ == '__main__':
     #결과 텍스트 창
     result = tkinter.Entry(window,width=70, bg='white')
     result.pack(pady=5,padx=5,side='bottom')
-
 
     #img_label.place(x=40,y=29)
     k_e_radio.select()
