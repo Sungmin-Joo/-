@@ -2,6 +2,7 @@
 > 파파고 오픈 api를 활용한 나만의 파파고 만들기
 
 
+
 파이썬과 파파고 pen api를 활용하여 프로젝트를 진행하였다.  
 target text와 result text를 전환하는 기능, 'Enter'키 바인딩 등 최대한 많이 구현 해 보았다.  
    
@@ -47,7 +48,7 @@ header = {
  Name      : 주성민(Joo Sung Min)  
  E-mail    : big-joo_dev@naver.com  
  Phone     : 010-2770-4367
- Univesity : Korea Polytechnic University  
+ Univesity : Korea Polytechnic University.  
   
  버그가 있다면 제보를 부탁 드립니다.  
    
